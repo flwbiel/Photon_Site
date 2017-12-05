@@ -158,12 +158,18 @@ nav ul a:hover{
    }
 
   .p_projeto{
-      padding-left: 48px;
    padding-top: 108px;
 }
 
-.p2_projeto{
-    padding-left: 48px;
+.img_produto, .img_empresa{
+    margin-left: 108px;
+}
+
+.h1_projeto{
+    margin-left: 129px ;
+}
+.img_projeto{
+    margin-left: 142px ;
 }
 
 .produto > *, .empresa > *, .projeto > * {
@@ -171,7 +177,9 @@ nav ul a:hover{
     flex-basis: 400px;
 }
 
-
+.textos {
+    flex: 40 !important;
+}
 
 @media screen and (max-width : 1460px){
     video, #img-entrada{
@@ -198,47 +206,35 @@ nav ul a:hover{
     margin-left: 0px;
 }
 
-
-.h1_empresa{
-    margin-bottom: 18px;
-    padding-top: 63px;
-   }
    
-   .img_empresa, .img_projeto, .img_produto{
-       margin-bottom: 24px;
-  }
+   .img_produto, .img_empresa{
+    margin-left: 0px;
+}
 
   .p_empresa, .p_produto{
    padding-top: 0px;
 }
 
+.p_produto{
+    padding-top: 0px !important;
+}
+
 .p_projeto{
-  padding-left: 48px;
 padding-top: 0px;
 }
 
-.p2_projeto{
-padding-left: 48px;
-}
 
-.p_produto{
-    padding-left: 20px;
-}
-
-.p2_produto{
-    padding-left: 20px;
-}
-
-.h1_produto{
-    padding-top: 150px;
-}
-
-
-@media screen and (max-width: 600px){
-
-    .produto, .empresa, .projeto {
+.produto, .empresa, .projeto {
     text-align: center !important;
 }
+
+.h1_projeto{
+    margin-left: 0px;
+}
+.img_projeto{
+    margin-left: 0px;
+}
+
 
 
 
