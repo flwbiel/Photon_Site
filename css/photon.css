@@ -142,8 +142,13 @@ nav ul a:hover{
     color: white;
 }
 
+#empresa{
+    padding-top: 10rem;
+}
+
 #empresa, #projeto, #produto, #equipe, #galeria{
         padding-left: 226px;
+        padding-bottom: 45rem;
     }
     .h1_empresa{
         margin-bottom: 18px;
