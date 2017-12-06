@@ -200,10 +200,6 @@ nav ul a:hover{
 }
 
 @media screen and (max-width: 600px){
-      #img_entrada{
-          display: block;
-          width: 1366px;
-      } 
     
     
     #empresa, #projeto, #produto, #equipe, #galeria{
