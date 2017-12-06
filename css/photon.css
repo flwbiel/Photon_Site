@@ -142,8 +142,8 @@ nav ul a:hover{
     color: white;
 }
 
-#space{
-    padding-bottom: 45rem;
+#empresa{
+    padding-top: 15rem;
 }
 
 #empresa, #projeto, #produto, #equipe, #galeria{
@@ -202,6 +202,7 @@ nav ul a:hover{
 @media screen and (max-width: 600px){
         #empresa, #projeto, #produto, #equipe, #galeria{
         padding-left: 20px;
+        padding-bottom:15rem;
         
     }
     .carousel .carousel-item {
