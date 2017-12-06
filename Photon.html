@@ -9,6 +9,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/Photon.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqzWwvmJUgDRvarUU4cxjB1psqN-LjbzM&callback=initMap">
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" sizes="57x57" href="font/icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="font/icon/apple-icon-60x60.png">
@@ -19,7 +21,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="font/icon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="font/icon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="font/icon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="font/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="font/icon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="font/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="font/icon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="font/icon/favicon-16x16.png">
@@ -40,19 +42,19 @@
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <a href="#empresa" >EMPRESA</a>
+                            <a href="#empresa">EMPRESA</a>
                         </li>
                         <li>
-                            <a href="#projeto" >PROJETO</a>
+                            <a href="#projeto">PROJETO</a>
                         </li>
                         <li>
-                            <a href="#produto" >PHOTON CONTROLLER</a>
+                            <a href="#produto">PHOTON CONTROLLER</a>
                         </li>
                         <li>
-                            <a href="#galeria" >GALERIA</a>
+                            <a href="#galeria">GALERIA</a>
                         </li>
                         <li>
-                            <a href="#equipe" >EQUIPE</a>
+                            <a href="#equipe">EQUIPE</a>
                         </li>
                     </ul>
                 </div>
@@ -247,10 +249,27 @@
             </div>
         </div>
     </main>
-
-    <div class="senai">
-
+    <div id="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <a href="https://informatica.sp.senai.br/">
+                        <img src="font/senai.jpg" style="width: 140px; height: 54px; padding-top: 5px; margin-top: 2rem; margin-left: 5rem;" alt="logo"
+                            id="logo_senai" />
+                    </a>
+                    <p class="grey-text text-lighten-4"> Endereço: Alameda Barão de Limeira, 539 - Santa Cecilia, São Paulo - SP, 01202-001</p>
+                    <p class="grey-text text-lighten-4">Telefone: (11) 3273-5000</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text" style="text-align: center;">Localização</h5>
+                    <div id="map">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
 
     <footer class="page-footer black">
         <div class="container">

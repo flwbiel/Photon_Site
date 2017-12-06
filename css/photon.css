@@ -122,7 +122,7 @@ footer{
 }
 
 .empresa, .projeto, .produto, .equipe, .galeria{
-    background-color: rgba(0,0,0,.35) !important ;
+    background-color: rgba(0,0,0,.75) !important ;
     padding: 10px 5%;
 }
 
@@ -145,6 +145,22 @@ nav ul a:hover{
 #empresa{
     padding-top: 15rem;
 }
+
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+    
+
+
+
 
 #empresa, #projeto, #produto, #equipe, #galeria{
         padding-left: 226px;
@@ -182,7 +198,19 @@ nav ul a:hover{
 .textos {
     flex: 40 !important;
 }
+#map {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    padding-top: 5px;
+    margin-bottom: 3rem;
+    margin-right: 36px;
+   }
 
+   #page-footer{
+       margin-left: 14rem;
+       background-color: black;
+   }
 @media screen and (max-width : 1460px){
     video, #img-entrada{
         display: none;
@@ -209,6 +237,10 @@ nav ul a:hover{
     }
     .carousel .carousel-item {
     margin-left: 0px;
+}
+
+#page-footer{
+    margin-left: 0rem;
 }
 
    
@@ -240,6 +272,15 @@ padding-top: 0px;
 .img_projeto{
     margin-left: 0px;
 }
+
+#map {
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    padding-top: 5px;
+    margin-bottom: 3rem;
+    margin-right: auto;
+   }
 
 
 
