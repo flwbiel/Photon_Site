@@ -157,7 +157,9 @@ body {
   main {
     flex: 1 0 auto;
   }
-    
+    .p_empresa, .p_produto, .p2_produto{
+        padding-left: 23px;
+    }
 
 
 
@@ -242,7 +244,9 @@ body {
 #page-footer{
     margin-left: 0rem;
 }
-
+.p_empresa, .p_produto, .p2_produto{
+    padding-left: 0px;
+}
    
    .img_produto, .img_empresa{
     margin-left: 0px;
@@ -274,8 +278,8 @@ padding-top: 0px;
 }
 
 #map {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 100%;
     margin-left: auto;
     padding-top: 5px;
     margin-bottom: 3rem;
