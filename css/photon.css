@@ -153,12 +153,9 @@ nav ul a:hover{
            margin-bottom: 24px;
       }
    
-      .p_empresa, .p_produto{
-       padding-top: 58px;
-   }
 
   .p_projeto{
-   padding-top: 108px;
+   padding-top: 58px;
 }
 
 .img_produto, .img_empresa{
@@ -211,9 +208,6 @@ nav ul a:hover{
     margin-left: 0px;
 }
 
-  .p_empresa, .p_produto{
-   padding-top: 0px;
-}
 
 .p_produto{
     padding-top: 0px !important;
